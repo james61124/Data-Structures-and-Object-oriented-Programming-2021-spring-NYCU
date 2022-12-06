@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>SelfMotivatedSystem</ProjectName>
+    <ProjectGuid>{A256CBFC-9798-47AB-B7B5-E9425D56DB2D}</ProjectGuid>
+    <RootNamespace>C_ASM</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <MASM>
+      <IncludePaths>.\Irvine</IncludePaths>
+    </MASM>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Irvine;.\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>user32.lib;irvine32.lib;devil.lib;ilu.lib;ilut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\bin\Debug\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>.\Irvine;.\lib; .\lib\IL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <MASM>
+      <IncludePaths>.\Irvine</IncludePaths>
+    </MASM>
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>freeglut.lib;opengl32.lib;glew32.lib;glew32s.lib;ILUT.lib;devIL.lib;ILU.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\bin\Release\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>.\lib; .\lib\IL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\myBasicTools.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048_draw.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem_draw.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor_draw.cpp" />
+    <ClCompile Include="basic_app.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp" />
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp" />
+    <ClCompile Include="openGLbasic\camera.cpp" />
+    <ClCompile Include="openGLbasic\opengl_stuff.cpp" />
+    <ClCompile Include="painter\painter_draw.cpp" />
+    <ClCompile Include="openGLapp\openGLapp.cpp" />
+    <ClCompile Include="openGLapp\openGLapp.events.cpp" />
+    <ClCompile Include="openGLapp\openGLapp_draw.cpp" />
+    <ClCompile Include="openGLapp\openGLapp_init.cpp" />
+    <ClCompile Include="openGLapp\openGLapp_update.cpp" />
+    <ClCompile Include="primitives\basic_tools.cpp" />
+    <ClCompile Include="primitives\grid2D.cpp" />
+    <ClCompile Include="primitives\provider.cpp" />
+    <ClCompile Include="primitives\vector3d.cpp" />
+    <ClCompile Include="fileReader\fileReader.cpp" />
+    <ClCompile Include="imageReader\imageReader.cpp" />
+    <ClCompile Include="boardGame\BG_grid2D.cpp" />
+    <ClCompile Include="boardGame\boardGame.cpp" />
+    <ClCompile Include="painter\painter.cpp" />
+    <ClCompile Include="boardGameApp\boardGameApp.cpp" />
+    <ClCompile Include="freeCanvas2D\freeCanvas2D.cpp" />
+    <ClCompile Include="spatial_partition_structures\lattice_manager.cpp" />
+    <ClCompile Include="painting_system\paintingSystem.cpp" />
+    <ClCompile Include="painting_system\paintingSystemApp.cpp" />
+    <ClCompile Include="painting_system\paintingSystemApp_draw.cpp" />
+    <ClCompile Include="painting_system\paintingSystemApp_HandleEvents.cpp" />
+    <ClCompile Include="textureManager\texture.cpp" />
+    <ClCompile Include="textureManager\textureManager.cpp" />
+    <ClCompile Include="textureManager\textureManager_read.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\base_class.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\graph_basics.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\myBasicTools.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor.h" />
+    <ClInclude Include="basic_app.h" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.h" />
+    <ClInclude Include="openGLbasic\camera.h" />
+    <ClInclude Include="openGLbasic\opengl_stuff.h" />
+    <ClInclude Include="openGLapp\openGLapp.h" />
+    <ClInclude Include="openGLapp\openGLapp_headers.h" />
+    <ClInclude Include="openGLapp\openGLapp_myStuff.h" />
+    <ClInclude Include="primitives\basic_tools.h" />
+    <ClInclude Include="primitives\grid2D.h" />
+    <ClInclude Include="primitives\mat.h" />
+    <ClInclude Include="primitives\provider.h" />
+    <ClInclude Include="primitives\vec.h" />
+    <ClInclude Include="primitives\vector3d.h" />
+    <ClInclude Include="fileReader\fileReader.h" />
+    <ClInclude Include="imageReader\imageReader.h" />
+    <ClInclude Include="boardGame\BG_grid2D.h" />
+    <ClInclude Include="boardGame\boardGame.h" />
+    <ClInclude Include="painter\painter.h" />
+    <ClInclude Include="boardGameApp\boardGameApp.h" />
+    <ClInclude Include="freeCanvas2D\freeCanvas2D.h" />
+    <ClInclude Include="spatial_partition_structures\lattice_manager.h" />
+    <ClInclude Include="painting_system\paintingSystem.h" />
+    <ClInclude Include="painting_system\paintingSystemApp.h" />
+    <ClInclude Include="textureManager\texture.h" />
+    <ClInclude Include="textureManager\textureManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

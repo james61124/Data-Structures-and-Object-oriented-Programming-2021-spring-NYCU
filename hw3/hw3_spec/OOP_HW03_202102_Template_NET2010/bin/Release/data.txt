@@ -1,0 +1,7 @@
+DIM			19 	19
+NumOfPlayers		2
+Image			0	./pic/piece00.jpg
+Image			1	./pic/piece01.jpg
+WinRule			horizontal 	5
+WinRule			vertical 	5
+WinRule			diagonal	5

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main_source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="00_StudentWork">
+      <UniqueIdentifier>{810fe5b0-843c-4f3e-9364-02c2f90e1602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGLbasic">
+      <UniqueIdentifier>{947d4824-a0bc-4c3e-b269-cac8a25ac7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openGLapp">
+      <UniqueIdentifier>{eb61e24f-9c64-4001-adf1-e9a183acb49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives">
+      <UniqueIdentifier>{8e59679c-5424-4f85-9f41-f451a8666a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="primitives\NewFilter1">
+      <UniqueIdentifier>{5f4d71ad-b25e-4b00-a0f4-e827a2d0199f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileReader">
+      <UniqueIdentifier>{da2c8eae-7217-4d9c-a557-0d611f5efb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imageReader">
+      <UniqueIdentifier>{0dbfa72a-aa90-46c6-b0c3-6e31de6b2ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boardGame">
+      <UniqueIdentifier>{908df4ca-3207-43ce-8eb4-5077378243ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="painter">
+      <UniqueIdentifier>{31eaf0e4-18b9-4ba8-a96e-b21888957dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boardGameApp">
+      <UniqueIdentifier>{9eb92941-cca6-4831-bcb8-e04abc80c4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeCanvas2D">
+      <UniqueIdentifier>{0c56d62f-453a-4ec0-a515-984b02a16843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="space_partition">
+      <UniqueIdentifier>{c103deba-f9db-40e3-9500-c6fc6b4e2747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paintingSystem">
+      <UniqueIdentifier>{121bcb3d-9809-471f-a3d5-1adc0878b9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textureManager">
+      <UniqueIdentifier>{8f3071b8-d965-4c0d-985b-8603b94f2efc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic_app.cpp">
+      <Filter>main_source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main_source</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLbasic\camera.cpp">
+      <Filter>openGLbasic</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLbasic\opengl_stuff.cpp">
+      <Filter>openGLbasic</Filter>
+    </ClCompile>
+    <ClCompile Include="painter\painter_draw.cpp">
+      <Filter>openGLbasic</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLapp\openGLapp.cpp">
+      <Filter>openGLapp</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLapp\openGLapp.events.cpp">
+      <Filter>openGLapp</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLapp\openGLapp_draw.cpp">
+      <Filter>openGLapp</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLapp\openGLapp_init.cpp">
+      <Filter>openGLapp</Filter>
+    </ClCompile>
+    <ClCompile Include="openGLapp\openGLapp_update.cpp">
+      <Filter>openGLapp</Filter>
+    </ClCompile>
+    <ClCompile Include="primitives\basic_tools.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="primitives\grid2D.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="primitives\provider.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="primitives\vector3d.cpp">
+      <Filter>primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="fileReader\fileReader.cpp">
+      <Filter>fileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="imageReader\imageReader.cpp">
+      <Filter>imageReader</Filter>
+    </ClCompile>
+    <ClCompile Include="boardGame\BG_grid2D.cpp">
+      <Filter>boardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="boardGame\boardGame.cpp">
+      <Filter>boardGame</Filter>
+    </ClCompile>
+    <ClCompile Include="painter\painter.cpp">
+      <Filter>painter</Filter>
+    </ClCompile>
+    <ClCompile Include="boardGameApp\boardGameApp.cpp">
+      <Filter>boardGameApp</Filter>
+    </ClCompile>
+    <ClCompile Include="freeCanvas2D\freeCanvas2D.cpp">
+      <Filter>freeCanvas2D</Filter>
+    </ClCompile>
+    <ClCompile Include="spatial_partition_structures\lattice_manager.cpp">
+      <Filter>space_partition</Filter>
+    </ClCompile>
+    <ClCompile Include="painting_system\paintingSystem.cpp">
+      <Filter>paintingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="painting_system\paintingSystemApp.cpp">
+      <Filter>paintingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="painting_system\paintingSystemApp_draw.cpp">
+      <Filter>paintingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="painting_system\paintingSystemApp_HandleEvents.cpp">
+      <Filter>paintingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="textureManager\texture.cpp">
+      <Filter>textureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="textureManager\textureManager.cpp">
+      <Filter>textureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="textureManager\textureManager_read.cpp">
+      <Filter>textureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\myBasicTools.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem_draw.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048_draw.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor_draw.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+    <ClCompile Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor.cpp">
+      <Filter>00_StudentWork</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic_app.h">
+      <Filter>main_source</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>main_source</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="openGLbasic\camera.h">
+      <Filter>openGLbasic</Filter>
+    </ClInclude>
+    <ClInclude Include="openGLbasic\opengl_stuff.h">
+      <Filter>openGLbasic</Filter>
+    </ClInclude>
+    <ClInclude Include="openGLapp\openGLapp.h">
+      <Filter>openGLapp</Filter>
+    </ClInclude>
+    <ClInclude Include="openGLapp\openGLapp_headers.h">
+      <Filter>openGLapp</Filter>
+    </ClInclude>
+    <ClInclude Include="openGLapp\openGLapp_myStuff.h">
+      <Filter>openGLapp</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\basic_tools.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\grid2D.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\mat.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\provider.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\vec.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives\vector3d.h">
+      <Filter>primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="fileReader\fileReader.h">
+      <Filter>fileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="imageReader\imageReader.h">
+      <Filter>imageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="boardGame\BG_grid2D.h">
+      <Filter>boardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="boardGame\boardGame.h">
+      <Filter>boardGame</Filter>
+    </ClInclude>
+    <ClInclude Include="painter\painter.h">
+      <Filter>painter</Filter>
+    </ClInclude>
+    <ClInclude Include="boardGameApp\boardGameApp.h">
+      <Filter>boardGameApp</Filter>
+    </ClInclude>
+    <ClInclude Include="freeCanvas2D\freeCanvas2D.h">
+      <Filter>freeCanvas2D</Filter>
+    </ClInclude>
+    <ClInclude Include="spatial_partition_structures\lattice_manager.h">
+      <Filter>space_partition</Filter>
+    </ClInclude>
+    <ClInclude Include="painting_system\paintingSystem.h">
+      <Filter>paintingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="painting_system\paintingSystemApp.h">
+      <Filter>paintingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="textureManager\texture.h">
+      <Filter>textureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="textureManager\textureManager.h">
+      <Filter>textureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\base_class.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\myBasicTools.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\graph_basics.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_2048.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+    <ClInclude Include="00_StudentWork\00_SimpleInteractiveSystem\mySystem_ImageEditor.h">
+      <Filter>00_StudentWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

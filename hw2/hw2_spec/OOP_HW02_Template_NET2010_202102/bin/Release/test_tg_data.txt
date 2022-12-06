@@ -1,0 +1,16 @@
+setcolor	1.0 0.0 0.0
+moveto 10 10
+up
+move 50
+
+setcolor	1.0 0.0 0.0
+moveto 20 10
+left
+move 100
+moveto 30 200
+right
+move 150
+
+setcolor	1.0 1.0 0.0
+down 
+move 50

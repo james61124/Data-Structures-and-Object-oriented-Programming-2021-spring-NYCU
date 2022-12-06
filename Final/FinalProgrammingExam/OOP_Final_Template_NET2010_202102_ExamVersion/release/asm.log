@@ -1,0 +1,65 @@
+﻿已經開始建置於 2021/6/17 下午 08:58:06。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\asm.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\SelfMotivatedSystem.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\Irvine /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp
+         mySystem_GraphSystem.cpp
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp(201): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp(201): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp(252): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GraphSystem.cpp(252): warning C4244: '引數' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\Release\SelfMotivatedSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\Irvine /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SelfMotivatedSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\Release\SelfMotivatedSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\Release\SelfMotivatedSystem.lib" /MACHINE:X86 Release\myBasicTools.obj
+         Release\mySystem_GraphSystem.obj
+         Release\mySystem_GraphSystem_draw.obj
+         Release\mySystem_MonteCarlo.obj
+         Release\mySystem_MonteCarlo_draw.obj
+         Release\mySystem_SortingVisualization.obj
+         Release\mySystem_SortingVisualization_draw.obj
+         Release\basic_app.obj
+         Release\main.obj
+         Release\mySystemApp.obj
+         Release\mySystemApp_draw.obj
+         Release\mySystemApp_HandleEvents.obj
+         Release\camera.obj
+         Release\ogl_basic_tools.obj
+         Release\opengl_stuff.obj
+         Release\painter_draw.obj
+         Release\openGLapp.obj
+         Release\openGLapp.events.obj
+         Release\openGLapp_draw.obj
+         Release\openGLapp_init.obj
+         Release\openGLapp_update.obj
+         Release\basic_tools.obj
+         Release\grid2D.obj
+         Release\provider.obj
+         Release\vector3d.obj
+         Release\fileReader.obj
+         Release\imageReader.obj
+         Release\BG_grid2D.obj
+         Release\boardGame.obj
+         Release\painter.obj
+         Release\boardGameApp.obj
+         Release\freeCanvas2D.obj
+         Release\lattice_manager.obj
+         Release\paintingSystem.obj
+         Release\paintingSystemApp.obj
+         Release\paintingSystemApp_draw.obj
+         Release\paintingSystemApp_HandleEvents.obj
+         Release\texture.obj
+         Release\textureManager.obj
+         Release\textureManager_read.obj
+         正在產生程式碼
+         已完成程式碼產生
+         asm.vcxproj -> C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\Release\SelfMotivatedSystem.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\Release\SelfMotivatedSystem.exe;#1" /manifest Release\SelfMotivatedSystem.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\SelfMotivatedSystem.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\SelfMotivatedSystem.lastbuildstate"。
+     1>專案 "C:\Users\user\Desktop\FinalProgrammingExam_2021_Template\OOP_Final_Template_NET2010_202102_ExamVersion\asm.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.09

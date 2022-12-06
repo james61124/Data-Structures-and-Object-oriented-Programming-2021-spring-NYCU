@@ -1,0 +1,11 @@
+#include "../headers.h"
+#include <string>
+#include "../openGLbasic/opengl_stuff.h"
+#include "../primitives/vector3d.h"
+#include "../imageReader/imageReader.h"
+#include "../boardGame/boardGame.h"
+#include "../textureManager/textureManager.h"
+#include "../painter/painter.h"
+#include "../boardGameApp/boardGameApp.h"
+#include "../painting_system/paintingSystemApp.h"
+#include "../00_StudentWork/00_SimpleInteractiveSystem/mySystemApp.h"

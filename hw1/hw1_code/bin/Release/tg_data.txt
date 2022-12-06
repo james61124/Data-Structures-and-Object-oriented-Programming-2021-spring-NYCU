@@ -1,0 +1,9 @@
+moveto 10 10
+up
+move 50
+moveto 20 10
+up
+move 100
+moveto 30 10
+up
+move 150

@@ -1,0 +1,17 @@
+﻿已經開始建置於 2021/3/27 下午 05:26:42。
+     1>節點 2 (build 目標) 上的專案 "C:\programming\homework\OOP_HW01_NET2010_202102_Template\asm.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\myFirstSystem.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+       Link:
+         所有輸出都是最新的。
+         asm.vcxproj -> C:\programming\homework\OOP_HW01_NET2010_202102_Template\Release\myFirstSystem.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\myFirstSystem.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\myFirstSystem.lastbuildstate"。
+     1>專案 "C:\programming\homework\OOP_HW01_NET2010_202102_Template\asm.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.14
